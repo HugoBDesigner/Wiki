@@ -20,13 +20,13 @@ If your mod's files are placed within your `sourcemods` folder, you can simply l
 Alternatively, your mod can be launched from the command line.
 To launch on Windows: 
 ```sh
-"..\..\common\Portal 2 Community Edition\bin\win64\p2ce.exe" -legacyui -game "%cd%"
+"..\..\common\Portal 2 Community Edition\bin\win64\p2ce.exe" -game "%cd%"
 ```
 ###### Note: on some older versions of P2:CE, you may need to replace `p2ce.exe` with `chaos.exe`.
 
 To launch on Linux:
 ```sh
-"../../common/Portal 2 Community Edition/p2ce.sh" -legacyui -game "$PWD"
+"../../common/Portal 2 Community Edition/p2ce.sh" -game "$PWD"
 ```
 
 ## Contents
